@@ -1,0 +1,62 @@
+body{
+ height: 100vh; 
+ display: flex;  
+ flex-direction: column;
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+}
+
+
+
+header
+{
+    background-color: hsl(215, 28%, 17%);
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header .logo{
+    color: white;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.link-container{
+    display: flex;
+    gap: 24px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(215, 28%, 17%);
+    
+}
+
+footer{
+    background-color: hsl(215, 28%, 17%);
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 24px;
+}
+
+.footer-text{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
