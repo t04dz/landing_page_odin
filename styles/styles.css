@@ -1,105 +1,147 @@
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    background-color: hsl(215, 28%, 17%);
-    padding: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: hsl(215, 28%, 17%);
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .logo {
-    color: white;
-    font-weight: 900;
-    font-size: 24px;
-    margin-left: 430px;
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  margin-left: 430px;
 }
 
 a:visited,
 a:link,
 a:active {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .link-container {
-    display: flex;
-    gap: 24px;
-    margin-right: 430px;
+  display: flex;
+  gap: 24px;
+  margin-right: 430px;
 }
 
 .hero-container {
-    display: flex;
-    justify-content: center;
-    background-color: hsl(215, 28%, 17%);
-    padding-bottom: 100px;
-    padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(215, 28%, 17%);
+  padding-bottom: 100px;
+  padding-top: 30px;
 }
 
 footer {
-    background-color: hsl(215, 28%, 17%);
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    padding: 24px;
+  background-color: hsl(215, 28%, 17%);
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding: 24px;
 }
 
 .footer-text {
-    color: white;
+  color: white;
 }
 
 .hero-text {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    max-width: 300px;
-    justify-content: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  justify-content: center;
 }
 
 .hero-text p {
-    margin: 5px;
-    padding: 0;
-    color: #E5E7EB;
+  margin: 5px;
+  padding: 0;
+  color: #e5e7eb;
 }
 
 .hero-text h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 900;
-    font-size: 48px;
-    color: #F9FAF8;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
 }
 
 .img-placeholder {
-    border: 1px grey;
-    width: 500px;
-    height: 250px;
-    background-color: lightslategray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-small;
-    margin-left: 200px;
+  border: 1px grey;
+  width: 500px;
+  height: 250px;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+  margin-left: 200px;
 }
 
 .signup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 8px;
-    font-size: 12px;
-    height: 30px;
-    width: 100px;
-    background-color: #3882F6;
-    border: 0px;
-    color: white;
-    border-radius: 8px;
-    font-weight: 700;
-    margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  background-color: #3882f6;
+  border: 0px;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-container h1 {
+  font-size: 36px;
+}
+
+.infoimg-container {
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.info-img1,
+.info-img2,
+.info-img3,
+.info-img4 {
+  border: solid 3px #3882f6;
+  width: 132px;
+  height: 132px;
+  border-radius: 12px;
+}
+
+.info-container ul {
+  list-style: none;
+  display: flex;
+  max-width: 648px;
+  padding: 3px;
+  margin: 0px;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(87, 87, 87);
+  text-align: center;
 }
