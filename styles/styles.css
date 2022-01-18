@@ -35,7 +35,6 @@ a:active {
 .hero-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: hsl(215, 28%, 17%);
     padding-bottom: 200px;
 }
@@ -52,6 +51,26 @@ footer {
     color: white;
 }
 
-h1 {
+.hero-text {
     color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: ;
+}
+
+.hero-text p {
+    margin: 0;
+    padding: 0;
+}
+
+.img-placeholder {
+    border: 1px grey;
+    width: 400px;
+    height: 200px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
 }
