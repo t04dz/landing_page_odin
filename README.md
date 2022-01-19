@@ -1,1 +1,3 @@
 # landing_page_odin
+
+This is a landing page I completed for The Odin Project, it is probably not something you wanna model your code off of...
