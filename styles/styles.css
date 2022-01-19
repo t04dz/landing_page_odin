@@ -169,3 +169,57 @@ footer {
   margin-top: 15px;
   margin-left: 550px;
 }
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.cta-box {
+  display: flex;
+  background-color: #3882f6;
+  height: 150px;
+  width: 800px;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.cta-box h4 {
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: white;
+}
+
+.cta-box h6 {
+  margin-top: 0px;
+  color: #e5e7eb;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.cta-text {
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+.signup2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  background-color: #3882f6;
+  border: solid 2px white;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.cta-button {
+  flex: 1;
+}
